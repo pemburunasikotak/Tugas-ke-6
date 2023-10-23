@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="7.384" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Login page Aplikasi kasir aja" name="User login to Kasir Aja - Example #1.1" time="4.248">
+<system-out><![CDATA[
+Given Halaman login kasir aja...............................................passed
+When I input failed-login@gmail.com as email................................passed
+And I input failed-login as password........................................passed
+And Click Login button......................................................passed
+Then I verify failed login result...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login page Aplikasi kasir aja" name="User login to Kasir Aja - Example #1.2" time="2.882">
+<system-out><![CDATA[
+Given Halaman login kasir aja...............................................passed
+When I input tdd-selenium@gmail.com as email................................passed
+And I input tdd-selenium as password........................................passed
+And Click Login button......................................................passed
+Then I verify success login result..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
