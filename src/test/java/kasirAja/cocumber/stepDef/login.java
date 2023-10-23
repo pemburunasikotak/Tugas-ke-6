@@ -15,12 +15,12 @@ import java.util.concurrent.TimeUnit;
 public class login {
     WebDriver driver;
     String baseUrl = "https://kasirdemo.belajarqa.com/";
-//    String baseUrl = "https://www.google.com/?hl=id";
 
     @Given("Halaman login kasir aja")
     public void halamanLoginKasirAja() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
+
         driver.get(baseUrl);
         driver.manage().window().maximize();
 

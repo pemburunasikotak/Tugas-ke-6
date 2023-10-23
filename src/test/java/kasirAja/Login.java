@@ -22,11 +22,11 @@ public class Login extends env {
         WebDriver driver;
 //        String baseUrl = "https://kasirdemo.belajarqa.com/";
 
-        WebDriverManager.chromedriver().setup();
+//        WebDriverManager.chromedriver().setup();
 
         //apply chrome driver
         //membuka halaman login
-        driver = new ChromeDriver();
+        driver = WebDriverManager.chromedriver().create();
         driver.manage().window().maximize();
         driver.get(url);
 
